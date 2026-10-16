@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments — never commit environments
+env/
+venv/
+.venv/
+**/env/
+**/venv/
+**/.venv/
+
+# Local runtime, models and indexes — keep outside Git
+runtime/
+models/
+**/*.pth
+**/*.index
+**/*.onnx
+**/*.safetensors
+
+# Audio/video test data and generated outputs
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.mp4
+*.mkv
+output/
+outputs/
+logs/
+
+# Local secrets/config
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
